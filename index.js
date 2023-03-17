@@ -16,6 +16,6 @@ app.use(express.static('public'))
  })
  app.get("/course",function(req,res)
  {
-    res.send("Ye Course ka page hai")
+    res.render('index')
  })
  
